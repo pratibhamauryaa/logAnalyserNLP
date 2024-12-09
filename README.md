@@ -1,6 +1,14 @@
-# Log Analyzer for GreenKart
+# Log Analyzer using NLP
 
-This project implements an advanced CLI-based log analyzer for the GreenKart e-commerce application. It incorporates advanced system design principles and NLP techniques to provide deep insights, real-time anomaly detection, and efficient log processing.
+This project implements an advanced CLI-based log analyzer with NLP integration. It incorporates advanced system design principles and NLP techniques to provide deep insights, real-time anomaly detection, and efficient log processing. It analyze the sentiment by text classification and categorize the log message into either positive or negative.
+
+I have added some sample logs which follow a format (severiaty): log_message format. feel free to use below bash command to populate the logFile. 
+```bash for i in {1..5}; do
+  echo "ERROR: Failed to connect to database (attempt $i)"
+  echo "WARNING: Disk space running low (check $i)"
+  echo "INFO: Service started successfully (startup $i)"
+done > ./logs/logfile.log
+```
 
 ## Table of Contents
 
