@@ -1,0 +1,5 @@
+INFO: User logged in successfully
+WARNING: User login failed
+ERROR: Database connection lost
+INFO: Order processed successfully
+WARNING: Payment processing failed

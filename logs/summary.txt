@@ -1,0 +1,15 @@
+Severity Counts:
+ERROR: 1
+WARNING: 2
+INFO: 2
+
+Top 5 Frequent Log Messages:
+ User logged in successfully: 1
+ User login failed: 1
+ Database connection lost: 1
+ Order processed successfully: 1
+ Payment processing failed: 1
+
+Categorized Messages:
+POSITIVE: 2
+NEGATIVE: 3
